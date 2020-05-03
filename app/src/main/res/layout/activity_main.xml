@@ -37,14 +37,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:src="@drawable/play" />
+            android:src="@drawable/play"
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:id="@+id/stop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:src="@drawable/stop" />
+            android:src="@drawable/stop"
+            tools:ignore="ContentDescription" />
 
     </LinearLayout>
 
